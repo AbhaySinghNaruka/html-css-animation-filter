@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 1300px;
+    background-color: red;
+    height: 10000px;
+    margin: 0 auto;
+}
+
+.title {
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 75px;
+}
+
+.container-es-1 {
+    width: 100%;
+    height: 130px;
+    background-color: grey;
+    padding: 15px;
+}
+
+.quadrato-es-1 {
+    height: 100px;
+    width: 100px;
+    /* background-color: red; */
+    border: 1px solid red;
+}
