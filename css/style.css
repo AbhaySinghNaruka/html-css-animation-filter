@@ -6,7 +6,7 @@
 
 .container {
     width: 1300px;
-    background-color: red;
+    /* background-color: red; */
     height: 10000px;
     margin: 0 auto;
 }
@@ -17,16 +17,35 @@
     padding-bottom: 75px;
 }
 
-.container-es-1 {
-    width: 100%;
+.es-container {
     height: 130px;
-    background-color: grey;
+    border: 1px solid grey;
     padding: 15px;
+    margin-bottom: 15px;
 }
 
-.quadrato-es-1 {
+.paragrafo {
+    height: 50px;
+    /* background-color: cyan; */
+}
+
+.quadrato-1 {
     height: 100px;
     width: 100px;
     /* background-color: red; */
     border: 1px solid red;
 }
+
+.quadrato {
+    height: 100px;
+    width: 100px;
+    background-color: red;
+}
+
+.quadrato-5 {
+    width: 60px;
+    height: 60px;
+    background-color: red;
+    margin: 20px;
+}
+
