@@ -98,3 +98,40 @@ h2 {
     margin-left: 133.33px;
     width: 400px;
 }
+
+.es-container-10 {
+    height: 100px;
+    border: 1px solid lightgrey;
+    padding: 15px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+}
+
+.antiorario {
+    font-size: 60px;
+}
+
+/* ANIMAZIONI---------------------------------------------------------------------- */
+
+.quadrato-1:hover {
+    background: red;
+}
+
+.quadrato-1 {
+    transition: 2s;
+}
+
+.quadrato-2:active {
+    width: 100%;
+    transition: 2s;
+}
+
+.quadrato-3:hover {
+    border-radius: 50px;
+    transition: 1s;
+}
+
+.quadrato-4:hover {
+    opacity: 0;
+    transition: 1s;
+}
