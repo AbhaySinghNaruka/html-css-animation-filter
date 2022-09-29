@@ -17,11 +17,16 @@
     padding-bottom: 75px;
 }
 
+h2 {
+    padding-bottom: 15px;
+}
+
 .es-container {
     height: 130px;
-    border: 1px solid grey;
+    border: 1px solid lightgrey;
     padding: 15px;
     margin-bottom: 15px;
+    border-radius: 5px;
 }
 
 .paragrafo {
@@ -49,3 +54,47 @@
     margin: 20px;
 }
 
+.aereo-1 {
+    height: 300px;
+}
+
+.es-container-6 {
+    height: 330px;
+    border: 1px solid lightgrey;
+    padding: 15px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+}
+
+.aereo-2 {
+    height: 300px;
+    width: 533.33px;
+}
+
+.es-container-8 {
+    height: 380px;
+    border: 1px solid lightgrey;
+    padding: 15px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+}
+
+.lake {
+    height: 350px;
+    width: 533.33px;
+}
+
+.es-container-9 {
+    height: 375px;
+    border: 1px solid lightgrey;
+    padding: 15px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+}
+
+.landscape {
+    height: 220px;
+    margin: 60px;
+    margin-left: 133.33px;
+    width: 400px;
+}
