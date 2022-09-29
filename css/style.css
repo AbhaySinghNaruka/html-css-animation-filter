@@ -126,7 +126,12 @@ h2 {
     transition: 2s;
 }
 
-.quadrato-3:hover {
+.quadrato-2:not(:active) {
+    width: 100px;
+    transition: 2s;
+}
+
+.quadrato-3:hover {s
     border-radius: 50px;
     transition: 1s;
 }
@@ -143,4 +148,10 @@ h2 {
 .aereo-2:hover {
     filter: saturate(20%) sepia(.5);
     transition: 1s;
+}
+
+.lake:hover {
+    border-radius: 20px;
+    filter: saturate(20%) sepia(.7);
+    transition: 2s;
 }
