@@ -131,7 +131,7 @@ h2 {
     transition: 2s;
 }
 
-.quadrato-3:hover {s
+.quadrato-3:hover {
     border-radius: 50px;
     transition: 1s;
 }
@@ -146,12 +146,37 @@ h2 {
 }
 
 .aereo-2:hover {
-    filter: saturate(20%) sepia(.5);
+    filter: saturate(20%) sepia(50%);
     transition: 1s;
+}
+
+.aereo-2:not(:hover) {
+    filter: saturate(100%);
+    transition: 2s;
 }
 
 .lake:hover {
     border-radius: 20px;
-    filter: saturate(20%) sepia(.7);
+    filter: saturate(20%) sepia(50%);
+    transition: 2s;
+}
+
+.lake:not(:hover) {
+    border-radius: 0px;
+    /* filter: saturate(100%); */
+    transition: 2s;
+}
+
+.landscape:hover {
+    filter: grayscale(50%) sepia(50%);
+    border-radius: 15px;
+    transform: scale(1.5);
+    transition: 2s;
+}
+
+.landscape:not(:hover) {
+    /* filter: grayscale(50%) sepia(50%); */
+    border-radius: 0px;
+    /* transform: scale(1); */
     transition: 2s;
 }
